@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tugas1-profil_pribadi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body style="background-color:navajowhite;">
+        <h1>WEBSITE PROFIL PRIBADI</h1>
+        <h4>Halaman Web:</h4>
+
+        <nav>
+            <a href="Index.html">Tentang saya</a></th>
+            <a href="Hobi.html">Hobi</a></th>
+            <a href="Kontak.html">Kontak</a></th>
+        </nav>
+
+        <hr>
+        <h2>Kontak</h2>
+
+        <form>
+
+            <label for="nama">Nama</label><br>
+            <input class="kolom" type="text" name="nama" id="nama" required placeholder="Masukkan nama"><br>
+            <br>
+            <label for="tanggal_lahir">Tanggal Lahir</label><br>
+            <input class="kolom" type="date" name="tanggal_lahir" id="tanggal_lahir"><br>
+            <br>
+            <label for="jenis_kelamin">Jenis Kelamin</label><br>
+            <input class="kolom" type="radio" name="gender" id="Pria" value="Pria">
+            <label for="Pria">Pria</label>
+            <input class="kolom" type="radio" name="gender" id="Wanita" value="Wanita">
+            <label for="Wanita">Wanita</label><br>
+            <br>
+            <label for="alamat">Alamat</label><br>
+            <select class="kolom" name="kota" id="alamat">
+                <option value="">--pilih alamat--</option>
+                <option value="Mataram">Mataram</option>
+                <option value="Narmada">Narmada</option>
+                <option value="Kediri">Kediri</option>
+            </select><br>
+            <br>
+            <label for="email">E-mail</label><br>
+            <input class="kolom" type="email" name="email" id="email" required placeholder="Masukkan email"><br>
+            <br>
+            <label for="pesan">Pesan</label><br>
+            <textarea class="kolom" name="pesan" id="pesan" rows="5" cols="50" required placeholder="Masukkan pesan"></textarea>
+            <br>
+            <br>
+            <button type="submit"><b>Kirim</b></button>
+            <button type="reset"><b>Reset</b></button>
+
+        </form>
+
+        <br>
+        <br>
+        <hr>
+        <footer>
+            <p>©2026 website dibuat oleh Fatriya Annastha Putra</p>
+        </footer>
+    </body>
+</html>
