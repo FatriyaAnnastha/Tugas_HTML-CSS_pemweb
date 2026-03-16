@@ -25,12 +25,14 @@ h1{
 th{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    padding: 7px 7px 7px 7px;
     background-color: brown;
 }
 
 td{
     text-align: center;
+}
+
+th td{
     padding: 7px 7px 7px 7px;
 }
 
