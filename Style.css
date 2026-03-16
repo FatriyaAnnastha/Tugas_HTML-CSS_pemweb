@@ -4,6 +4,11 @@ h1{
     background-color:white;
     padding: 2%;
     margin: -1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: navajowhite;
 }
 
 .align-left{
