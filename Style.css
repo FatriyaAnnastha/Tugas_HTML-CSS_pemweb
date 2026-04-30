@@ -8,7 +8,7 @@ h1{
 }
 
 body{
-    background-color: navajowhite;
+    background-color:wheat;
 }
 
 .align-left{
@@ -65,11 +65,16 @@ button{
     color: aliceblue;
     background-color: brown;
     border-color: azure;
-    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius:10 px;
+    -webkit-border-radius:10 px;
+    -moz-border-radius:10 px;
+    -ms-border-radius:10 px;
+    -o-border-radius:10 px;
     -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 nav a{
